@@ -13,4 +13,7 @@ ccache -M 50G -F 0
 
 . build/envsetup.sh
 
-brunch willow
+lunch
+
+make bootimage -j8
+
